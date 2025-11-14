@@ -1,422 +1,503 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Treescape: Unlocking Portugal's Regenerative Potential</title>
-    <meta name="description" content="AI-powered agroforestry platform for regenerative land use at scale">
-    <meta name="author" content="Mathijs de Bruin">
-    
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css">
-    
+    <meta
+      name="description"
+      content="AI-powered agroforestry platform for regenerative land use at scale"
+    />
+    <meta name="author" content="Mathijs de Bruin" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css"
+    />
+
     <style type="text/css">
-        .reveal {
-            font-family: "Source Sans Pro", Helvetica, sans-serif;
-        }
-        
-        .reveal h1, .reveal h2, .reveal h3 {
-            text-transform: none;
-            line-height: 1.2;
-        }
-        
-        .reveal h1 {
-            font-size: 2.5em;
-            color: #8fc742;
-        }
-        
-        .reveal h2 {
-            font-size: 1.8em;
-            color: #ffffff;
-        }
-        
-        .reveal h3 {
-            font-size: 1.3em;
-            color: #cccccc;
-        }
-        
-        .highlight {
-            color: #8fc742;
-        }
-        
-        .danger {
-            color: #ff6b6b;
-        }
-        
-        .stat {
-            font-size: 3em;
-            font-weight: bold;
-            color: #8fc742;
-            display: block;
-            margin: 0.3em 0;
-        }
-        
-        .source {
-            font-size: 0.6em;
-            color: #666;
-            position: absolute;
-            bottom: 10px;
-            right: 10px;
-        }
-        
-        .reveal .slides section .fragment.highlight-current-green.current-fragment {
-            color: #8fc742;
-        }
-        
-        .reveal section img.noborder {
-            border: none;
-            box-shadow: none;
-        }
-        
-        .lightbackground h1, .lightbackground h2, .lightbackground h3 {
-            text-shadow: 0 0 20px #000;
-        }
-        
-        ul {
-            display: block;
-            margin-left: 1em;
-        }
-        
-        .compact li {
-            margin-bottom: 0.3em;
-        }
+      .reveal {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+      }
+
+      .reveal h1,
+      .reveal h2,
+      .reveal h3 {
+        text-transform: none;
+        line-height: 1.2;
+      }
+
+      .reveal h1 {
+        font-size: 2.5em;
+        color: #8fc742;
+      }
+
+      .reveal h2 {
+        font-size: 1.8em;
+        color: #ffffff;
+      }
+
+      .reveal h3 {
+        font-size: 1.3em;
+        color: #cccccc;
+      }
+
+      .highlight {
+        color: #8fc742;
+      }
+
+      .danger {
+        color: #ff6b6b;
+      }
+
+      .stat {
+        font-size: 3em;
+        font-weight: bold;
+        color: #8fc742;
+        display: block;
+        margin: 0.3em 0;
+      }
+
+      .source {
+        font-size: 0.6em;
+        color: #666;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .reveal
+        .slides
+        section
+        .fragment.highlight-current-green.current-fragment {
+        color: #8fc742;
+      }
+
+      .reveal section img.noborder {
+        border: none;
+        box-shadow: none;
+      }
+
+      .lightbackground h1,
+      .lightbackground h2,
+      .lightbackground h3 {
+        text-shadow: 0 0 20px #000;
+      }
+
+      ul {
+        display: block;
+        margin-left: 1em;
+      }
+
+      .compact li {
+        margin-bottom: 0.3em;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-<div class="reveal">
-<div class="slides">
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Title Slide -->
+        <section data-background-color="#1a1a1a" data-timing="5">
+          <h1>Treescape</h1>
+          <h2 style="color: #8fc742">
+            Unlocking Portugal's Regenerative Potential
+          </h2>
+          <p style="margin-top: 2em">
+            <small>Mathijs de Bruin | CTO & Founder</small><br />
+            <small>Dutch Embassy Event | November 19, 2025</small>
+          </p>
+          <aside class="notes">
+            Strong opening, make eye contact. "Good morning/afternoon..."
+          </aside>
+        </section>
 
-<!-- Title Slide -->
-<section data-background-color="#1a1a1a" data-timing="5">
-    <h1>Treescape</h1>
-    <h2 style="color: #8fc742;">Unlocking Portugal's Regenerative Potential</h2>
-    <p style="margin-top: 2em;">
-        <small>Mathijs de Bruin | CTO & Founder</small><br>
-        <small>Dutch Embassy Event | November 19, 2025</small>
-    </p>
-    <aside class="notes">
-        Strong opening, make eye contact. "Good morning/afternoon..."
-    </aside>
-</section>
+        <!-- Personal Journey -->
+        <section
+          data-background-image="placeholder_silverto_forest.jpg"
+          data-background-opacity="0.3"
+          data-timing="15"
+        >
+          <h2>From Tech to Trees</h2>
+          <h3>4 years ago: Software Architect → Food Forest Pioneer</h3>
+          <p class="fragment">Paredes de Coura, Northern Portugal</p>
+          <p class="fragment">1.5 hectares of transformation</p>
+          <aside class="notes">
+            Personal story creates connection. "Four years ago, I made a
+            choice..."
+          </aside>
+        </section>
 
-<!-- Personal Journey -->
-<section data-background-image="placeholder_silverto_forest.jpg" data-background-opacity="0.3" data-timing="15">
-    <h2>From Tech to Trees</h2>
-    <h3>4 years ago: Software Architect → Food Forest Pioneer</h3>
-    <p class="fragment">Paredes de Coura, Northern Portugal</p>
-    <p class="fragment">1.5 hectares of transformation</p>
-    <aside class="notes">
-        Personal story creates connection. "Four years ago, I made a choice..."
-    </aside>
-</section>
+        <!-- The Crisis - Demographics -->
+        <section data-timing="15">
+          <h2>Portugal's Demographic Crisis</h2>
+          <div class="fragment">
+            <span class="stat danger">80%</span>
+            <p>Rural population lost since 1960s</p>
+          </div>
+          <div class="fragment">
+            <span class="stat danger">2.3 million</span>
+            <p>Portuguese living abroad (20% of population)</p>
+          </div>
+          <small class="source">Sources: INE, Eurostat 2023</small>
+          <aside class="notes">
+            Let the numbers speak. Pause after each statistic for impact.
+          </aside>
+        </section>
 
-<!-- The Crisis - Demographics -->
-<section data-timing="15">
-    <h2>Portugal's Demographic Crisis</h2>
-    <div class="fragment">
-        <span class="stat danger">80%</span>
-        <p>Rural population lost since 1960s</p>
+        <!-- The Crisis - Ecological -->
+        <section
+          data-background-image="images/eucalyptus_plantation.jpg"
+          data-background-opacity="0.4"
+          data-timing="10"
+        >
+          <h2 class="lightbackground">The Real Crisis</h2>
+          <div class="fragment">
+            <span class="stat danger">25%</span>
+            <p>Of Portuguese "forests" are eucalyptus monocultures</p>
+          </div>
+          <div class="fragment">
+            <span class="stat danger">70%</span>
+            <p>Of 2017 fire areas were eucalyptus/pine</p>
+          </div>
+          <small class="source"
+            >Source: ICNF, Global Forest Coalition 2019</small
+          >
+          <aside class="notes">
+            "But emigration isn't even the real crisis..." Emphasize "green
+            deserts"
+          </aside>
+        </section>
+
+        <!-- Climate Projections -->
+        <section data-timing="20">
+          <h2>Climate Emergency</h2>
+          <div class="fragment">
+            <span class="stat danger">+4°C</span>
+            <p>Temperature rise by 2100</p>
+          </div>
+          <div class="fragment">
+            <h3 class="danger">Beyond IPCC worst-case scenarios</h3>
+          </div>
+          <div class="fragment">
+            <h3 class="danger">Desert expansion by 2070</h3>
+          </div>
+          <small class="source">Source: EURO-CORDEX, CHELSA Climate Data</small>
+          <aside class="notes">
+            Build urgency without panic. "Beyond worst-case scenarios" - let
+            this sink in
+          </aside>
+        </section>
+
+        <!-- The Paradox -->
+        <section data-background-color="#0d1117" data-timing="25">
+          <h2>The Paradox</h2>
+          <h3 class="fragment highlight">
+            Agroforestry solves ALL these crises
+          </h3>
+          <ul class="compact">
+            <li class="fragment">Creates rural employment</li>
+            <li class="fragment">Sequesters carbon</li>
+            <li class="fragment">Prevents fires</li>
+            <li class="fragment">Restores water cycles</li>
+            <li class="fragment">Rebuilds soil</li>
+          </ul>
+          <aside class="notes">
+            Change tone to hopeful. List benefits rhythmically
+          </aside>
+        </section>
+
+        <!-- The Problem -->
+        <section data-timing="10">
+          <h2>So why isn't it everywhere?</h2>
+          <h1 class="fragment danger" style="font-size: 4em">COMPLEXITY</h1>
+          <p class="fragment">
+            Everything affects everything else<br />across 60+ years
+          </p>
+          <aside class="notes">
+            Dramatic pause before "COMPLEXITY". This is the key insight
+          </aside>
+        </section>
+
+        <!-- Solution Overview -->
+        <section
+          data-background-image="placeholder_treescape_interface.jpg"
+          data-background-opacity="0.3"
+          data-timing="10"
+        >
+          <h1>Enter Treescape</h1>
+          <h3>Making agroforestry</h3>
+          <h2 class="highlight">Simple. Bankable. Scalable.</h2>
+          <aside class="notes">
+            Energy shift - this is the turning point. Emphasize each word:
+            "Simple. Bankable. Scalable."
+          </aside>
+        </section>
+
+        <!-- Technical Approach -->
+        <section data-timing="30">
+          <h2>Our Approach</h2>
+          <div class="fragment">
+            <h3 class="highlight">1. Wizard-Guided Intelligence</h3>
+            <p>Fractal segmentation at every scale</p>
+          </div>
+          <div class="fragment">
+            <h3 class="highlight">2. Genetic Algorithms</h3>
+            <p>Explainable optimization of massive problem spaces</p>
+          </div>
+          <div class="fragment">
+            <h3 class="highlight">3. Interactive Business Models</h3>
+            <p>60-year projections, bankable outcomes</p>
+          </div>
+          <aside class="notes">
+            Don't get too technical. Focus on outcomes, not process
+          </aside>
+        </section>
+
+        <!-- Win-Win Dynamics -->
+        <section data-background-color="#0d1117" data-timing="20">
+          <h2>Enabling Win-Win Dynamics</h2>
+          <div
+            style="
+              display: flex;
+              justify-content: space-around;
+              margin-top: 2em;
+            "
+          >
+            <div class="fragment">
+              <h3>↓ Top-Down</h3>
+              <p>Government initiatives</p>
+            </div>
+            <div class="fragment">
+              <h3>↑ Bottom-Up</h3>
+              <p>Farmer innovation</p>
+            </div>
+          </div>
+          <h3 class="fragment highlight" style="margin-top: 1em">
+            Simultaneous optimization
+          </h3>
+          <aside class="notes">
+            Use hand gestures for top-down/bottom-up. "Everyone wins" message
+          </aside>
+        </section>
+
+        <!-- Portugal's Assets -->
+        <section
+          data-background-image="images/portuguese_rural.jpg"
+          data-background-opacity="0.3"
+          data-timing="20"
+        >
+          <h2>Portugal's Competitive Advantage</h2>
+          <div class="fragment">
+            <span class="stat">34%</span>
+            <p>Rural population - among Europe's highest</p>
+          </div>
+          <div class="fragment">
+            <h3 class="highlight">Unspoiled by industrial agriculture</h3>
+          </div>
+          <div class="fragment">
+            <h3 class="highlight">Ready for regeneration</h3>
+          </div>
+          <aside class="notes">
+            Reframe weakness as strength. Pride in Portugal's position
+          </aside>
+        </section>
+
+        <!-- Transformation Potential -->
+        <section data-timing="25">
+          <h2>From Crisis to Opportunity</h2>
+          <ul class="compact">
+            <li class="fragment">
+              <span class="danger">30% land in unresolved inheritance</span
+              ><br />
+              <span class="highlight">→ Make it actionable</span>
+            </li>
+            <li class="fragment">
+              <span class="danger">164 municipalities at risk</span><br />
+              <span class="highlight">→ Regenerative hubs</span>
+            </li>
+            <li class="fragment">
+              <span class="danger">84% poor grazing land</span><br />
+              <span class="highlight">→ Restore profitably</span>
+            </li>
+          </ul>
+          <small class="source">Sources: INE, Soil Mission EU</small>
+          <aside class="notes">
+            Problem → Solution format. Quick pace through points
+          </aside>
+        </section>
+
+        <!-- Image placeholder for regenerative vision -->
+        <section
+          data-background-image="images/regenerative_agroforestry.jpg"
+          data-background-opacity="0.7"
+          data-timing="15"
+        >
+          <h2 class="lightbackground">The Choice</h2>
+          <h1 class="lightbackground" style="margin-top: 2em">
+            Regeneration<br />or<br />Desertification
+          </h1>
+          <aside class="notes">Dramatic pause. Let the image speak</aside>
+        </section>
+
+        <!-- Partnership Model -->
+        <section data-timing="10">
+          <h2>Partnership Invitation</h2>
+          <h3>We seek founding partners, not clients</h3>
+          <aside class="notes">
+            "Partners, not clients" - important distinction
+          </aside>
+        </section>
+
+        <!-- Pilot Strategy -->
+        <section data-background-color="#0d1117" data-timing="20">
+          <h2>Scaling Strategy</h2>
+          <div class="fragment">
+            <h3 class="highlight">Phase 1: 3-5 pilots</h3>
+            <p>10+ hectares each, diverse regions</p>
+          </div>
+          <div class="fragment">
+            <h3 class="highlight">Phase 2: Scale 10x</h3>
+            <p>100 hectares → 1000 hectares</p>
+          </div>
+          <div class="fragment">
+            <p style="margin-top: 1em">
+              3-5 year cycles | Co-development model
+            </p>
+          </div>
+          <aside class="notes">
+            Concrete, achievable steps. Mention your scaling experience
+          </aside>
+        </section>
+
+        <!-- Research Partners -->
+        <section data-timing="10">
+          <h2>Research Collaborations</h2>
+          <ul>
+            <li class="fragment">Wageningen University (NL)</li>
+            <li class="fragment">Instituto Superior de Agronomia (PT)</li>
+            <li class="fragment">University of Évora (PT)</li>
+          </ul>
+          <p class="fragment" style="margin-top: 1em">
+            <span class="highlight">Focus:</span> Soil science, climate
+            modeling, validation
+          </p>
+          <aside class="notes">Quick, establishes credibility</aside>
+        </section>
+
+        <!-- Team Need -->
+        <section data-timing="10">
+          <h2>Seeking a CEO Partner</h2>
+          <h3 class="fragment">I build solutions.</h3>
+          <h3 class="fragment highlight">
+            I need someone to build the business.
+          </h3>
+          <p class="fragment" style="margin-top: 1em">
+            Previous scale: ipfs-search.com<br />
+            <small>Web-scale search engine for decentralized web</small>
+          </p>
+          <aside class="notes">
+            Humble but confident. Shows self-awareness
+          </aside>
+        </section>
+
+        <!-- Mission -->
+        <section data-background-color="#0d1117" data-timing="10">
+          <h2>Our Mission</h2>
+          <h1 style="font-size: 3em">1 Billion Hectares</h1>
+          <h3 class="highlight">Globally regenerated</h3>
+          <p class="fragment" style="margin-top: 2em">
+            Starting here. Starting now.
+          </p>
+          <aside class="notes">
+            Big vision moment. "Starting here. Starting now."
+          </aside>
+        </section>
+
+        <!-- Final Call to Action -->
+        <section
+          data-background-image="images/portuguese_landscape_sunset.jpg"
+          data-background-opacity="0.4"
+          data-timing="10"
+        >
+          <h2 class="lightbackground">
+            Portugal can lead the regenerative revolution
+          </h2>
+          <h3 class="fragment lightbackground highlight">
+            Turning land crisis<br />into regenerative future
+          </h3>
+          <aside class="notes">
+            Inspirational close. Portugal as leader, not follower
+          </aside>
+        </section>
+
+        <!-- Contact Slide -->
+        <section data-background-color="#1a1a1a" data-timing="0">
+          <h1>Let's Connect</h1>
+          <div style="margin-top: 2em">
+            <h3>Mathijs de Bruin</h3>
+            <p>Founder & CTO, Treescape</p>
+            <p style="margin-top: 1em">
+              <span class="highlight">Email:</span> mathijs@treescape.org<br />
+              <span class="highlight">Web:</span> treescape.org<br />
+              <span class="highlight">Location:</span> Ecoaldeia Silverto,
+              Paredes de Coura
+            </p>
+          </div>
+          <div style="margin-top: 2em">
+            <p><small>Partnership inquiries welcome</small></p>
+          </div>
+          <aside class="notes">
+            Leave this up during Q&A. "Thank you. I'm happy to answer
+            questions..." Key prep reminders: Technical details on genetic
+            algorithms, specific pilot requirements, partnership terms, your
+            background/credentials, FarmTree partnership details
+          </aside>
+        </section>
+      </div>
     </div>
-    <div class="fragment">
-        <span class="stat danger">2.3 million</span>
-        <p>Portuguese living abroad (20% of population)</p>
-    </div>
-    <small class="source">Sources: INE, Eurostat 2023</small>
-    <aside class="notes">
-        Let the numbers speak. Pause after each statistic for impact.
-    </aside>
-</section>
 
-<!-- The Crisis - Ecological -->
-<section data-background-image="images/eucalyptus_plantation.jpg" data-background-opacity="0.4" data-timing="10">
-    <h2 class="lightbackground">The Real Crisis</h2>
-    <div class="fragment">
-        <span class="stat danger">25%</span>
-        <p>Of Portuguese "forests" are eucalyptus monocultures</p>
-    </div>
-    <div class="fragment">
-        <span class="stat danger">70%</span>
-        <p>Of 2017 fire areas were eucalyptus/pine</p>
-    </div>
-    <small class="source">Source: ICNF, Global Forest Coalition 2019</small>
-    <aside class="notes">
-        "But emigration isn't even the real crisis..." Emphasize "green deserts"
-    </aside>
-</section>
-
-<!-- Climate Projections -->
-<section data-timing="20">
-    <h2>Climate Emergency</h2>
-    <div class="fragment">
-        <span class="stat danger">+4°C</span>
-        <p>Temperature rise by 2100</p>
-    </div>
-    <div class="fragment">
-        <h3 class="danger">Beyond IPCC worst-case scenarios</h3>
-    </div>
-    <div class="fragment">
-        <h3 class="danger">Desert expansion by 2070</h3>
-    </div>
-    <small class="source">Source: EURO-CORDEX, CHELSA Climate Data</small>
-    <aside class="notes">
-        Build urgency without panic. "Beyond worst-case scenarios" - let this sink in
-    </aside>
-</section>
-
-<!-- The Paradox -->
-<section data-background-color="#0d1117" data-timing="25">
-    <h2>The Paradox</h2>
-    <h3 class="fragment highlight">Agroforestry solves ALL these crises</h3>
-    <ul class="compact">
-        <li class="fragment">Creates rural employment</li>
-        <li class="fragment">Sequesters carbon</li>
-        <li class="fragment">Prevents fires</li>
-        <li class="fragment">Restores water cycles</li>
-        <li class="fragment">Rebuilds soil</li>
-    </ul>
-    <aside class="notes">
-        Change tone to hopeful. List benefits rhythmically
-    </aside>
-</section>
-
-<!-- The Problem -->
-<section data-timing="10">
-    <h2>So why isn't it everywhere?</h2>
-    <h1 class="fragment danger" style="font-size: 4em;">COMPLEXITY</h1>
-    <p class="fragment">Everything affects everything else<br>across 60+ years</p>
-    <aside class="notes">
-        Dramatic pause before "COMPLEXITY". This is the key insight
-    </aside>
-</section>
-
-<!-- Solution Overview -->
-<section data-background-image="placeholder_treescape_interface.jpg" data-background-opacity="0.3" data-timing="10">
-    <h1>Enter Treescape</h1>
-    <h3>Making agroforestry</h3>
-    <h2 class="highlight">Simple. Bankable. Scalable.</h2>
-    <aside class="notes">
-        Energy shift - this is the turning point. Emphasize each word: "Simple. Bankable. Scalable."
-    </aside>
-</section>
-
-<!-- Technical Approach -->
-<section data-timing="30">
-    <h2>Our Approach</h2>
-    <div class="fragment">
-        <h3 class="highlight">1. Wizard-Guided Intelligence</h3>
-        <p>Fractal segmentation at every scale</p>
-    </div>
-    <div class="fragment">
-        <h3 class="highlight">2. Genetic Algorithms</h3>
-        <p>Explainable optimization of massive problem spaces</p>
-    </div>
-    <div class="fragment">
-        <h3 class="highlight">3. Interactive Business Models</h3>
-        <p>60-year projections, bankable outcomes</p>
-    </div>
-    <aside class="notes">
-        Don't get too technical. Focus on outcomes, not process
-    </aside>
-</section>
-
-<!-- Win-Win Dynamics -->
-<section data-background-color="#0d1117" data-timing="20">
-    <h2>Enabling Win-Win Dynamics</h2>
-    <div style="display: flex; justify-content: space-around; margin-top: 2em;">
-        <div class="fragment">
-            <h3>↓ Top-Down</h3>
-            <p>Government initiatives</p>
-        </div>
-        <div class="fragment">
-            <h3>↑ Bottom-Up</h3>
-            <p>Farmer innovation</p>
-        </div>
-    </div>
-    <h3 class="fragment highlight" style="margin-top: 1em;">Simultaneous optimization</h3>
-    <aside class="notes">
-        Use hand gestures for top-down/bottom-up. "Everyone wins" message
-    </aside>
-</section>
-
-<!-- Portugal's Assets -->
-<section data-background-image="images/portuguese_rural.jpg" data-background-opacity="0.3" data-timing="20">
-    <h2>Portugal's Competitive Advantage</h2>
-    <div class="fragment">
-        <span class="stat">34%</span>
-        <p>Rural population - among Europe's highest</p>
-    </div>
-    <div class="fragment">
-        <h3 class="highlight">Unspoiled by industrial agriculture</h3>
-    </div>
-    <div class="fragment">
-        <h3 class="highlight">Ready for regeneration</h3>
-    </div>
-    <aside class="notes">
-        Reframe weakness as strength. Pride in Portugal's position
-    </aside>
-</section>
-
-<!-- Transformation Potential -->
-<section data-timing="25">
-    <h2>From Crisis to Opportunity</h2>
-    <ul class="compact">
-        <li class="fragment"><span class="danger">30% land in unresolved inheritance</span><br>
-            <span class="highlight">→ Make it actionable</span></li>
-        <li class="fragment"><span class="danger">164 municipalities at risk</span><br>
-            <span class="highlight">→ Regenerative hubs</span></li>
-        <li class="fragment"><span class="danger">84% poor grazing land</span><br>
-            <span class="highlight">→ Restore profitably</span></li>
-    </ul>
-    <small class="source">Sources: INE, Soil Mission EU</small>
-    <aside class="notes">
-        Problem → Solution format. Quick pace through points
-    </aside>
-</section>
-
-<!-- Image placeholder for regenerative vision -->
-<section data-background-image="images/regenerative_agroforestry.jpg" data-background-opacity="0.7" data-timing="15">
-    <h2 class="lightbackground">The Choice</h2>
-    <h1 class="lightbackground" style="margin-top: 2em;">Regeneration<br>or<br>Desertification</h1>
-    <aside class="notes">
-        Dramatic pause. Let the image speak
-    </aside>
-</section>
-
-<!-- Partnership Model -->
-<section data-timing="10">
-    <h2>Partnership Invitation</h2>
-    <h3>We seek founding partners, not clients</h3>
-    <aside class="notes">
-        "Partners, not clients" - important distinction
-    </aside>
-</section>
-
-<!-- Pilot Strategy -->
-<section data-background-color="#0d1117" data-timing="20">
-    <h2>Scaling Strategy</h2>
-    <div class="fragment">
-        <h3 class="highlight">Phase 1: 3-5 pilots</h3>
-        <p>10+ hectares each, diverse regions</p>
-    </div>
-    <div class="fragment">
-        <h3 class="highlight">Phase 2: Scale 10x</h3>
-        <p>100 hectares → 1000 hectares</p>
-    </div>
-    <div class="fragment">
-        <p style="margin-top: 1em;">3-5 year cycles | Co-development model</p>
-    </div>
-    <aside class="notes">
-        Concrete, achievable steps. Mention your scaling experience
-    </aside>
-</section>
-
-<!-- Research Partners -->
-<section data-timing="10">
-    <h2>Research Collaborations</h2>
-    <ul>
-        <li class="fragment">Wageningen University (NL)</li>
-        <li class="fragment">Instituto Superior de Agronomia (PT)</li>
-        <li class="fragment">University of Évora (PT)</li>
-    </ul>
-    <p class="fragment" style="margin-top: 1em;">
-        <span class="highlight">Focus:</span> Soil science, climate modeling, validation
-    </p>
-    <aside class="notes">
-        Quick, establishes credibility
-    </aside>
-</section>
-
-<!-- Team Need -->
-<section data-timing="10">
-    <h2>Seeking a CEO Partner</h2>
-    <h3 class="fragment">I build solutions.</h3>
-    <h3 class="fragment highlight">I need someone to build the business.</h3>
-    <p class="fragment" style="margin-top: 1em;">
-        Previous scale: ipfs-search.com<br>
-        <small>Web-scale search engine for decentralized web</small>
-    </p>
-    <aside class="notes">
-        Humble but confident. Shows self-awareness
-    </aside>
-</section>
-
-<!-- Mission -->
-<section data-background-color="#0d1117" data-timing="10">
-    <h2>Our Mission</h2>
-    <h1 style="font-size: 3em;">1 Billion Hectares</h1>
-    <h3 class="highlight">Globally regenerated</h3>
-    <p class="fragment" style="margin-top: 2em;">Starting here. Starting now.</p>
-    <aside class="notes">
-        Big vision moment. "Starting here. Starting now."
-    </aside>
-</section>
-
-<!-- Final Call to Action -->
-<section data-background-image="images/portuguese_landscape_sunset.jpg" data-background-opacity="0.4" data-timing="10">
-    <h2 class="lightbackground">Portugal can lead the regenerative revolution</h2>
-    <h3 class="fragment lightbackground highlight">
-        Turning land crisis<br>into regenerative future
-    </h3>
-    <aside class="notes">
-        Inspirational close. Portugal as leader, not follower
-    </aside>
-</section>
-
-<!-- Contact Slide -->
-<section data-background-color="#1a1a1a" data-timing="0">
-    <h1>Let's Connect</h1>
-    <div style="margin-top: 2em;">
-        <h3>Mathijs de Bruin</h3>
-        <p>Founder & CTO, Treescape</p>
-        <p style="margin-top: 1em;">
-            <span class="highlight">Email:</span> mathijs@treescape.org<br>
-            <span class="highlight">Web:</span> treescape.org<br>
-            <span class="highlight">Location:</span> Ecoaldeia Silverto, Paredes de Coura
-        </p>
-    </div>
-    <div style="margin-top: 2em;">
-        <p><small>Partnership inquiries welcome</small></p>
-    </div>
-    <aside class="notes">
-        Leave this up during Q&A. "Thank you. I'm happy to answer questions..." Key prep reminders: Technical details on genetic algorithms, specific pilot requirements, partnership terms, your background/credentials, FarmTree partnership details
-    </aside>
-</section>
-
-</div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
-<script>
-    Reveal.initialize({
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+    <script>
+      Reveal.initialize({
         hash: true,
         controls: true,
         progress: true,
         center: true,
-        transition: 'slide',
-        backgroundTransition: 'fade',
-        
+        transition: "slide",
+        backgroundTransition: "fade",
+
         // Timing
         autoSlide: 0,
         loop: false,
         totalTime: 300, // 5 minutes in seconds
-        
+
         // Presentation size
         width: 1920,
         height: 1080,
         margin: 0.1,
         minScale: 0.2,
         maxScale: 2.0,
-        
-        // Enable plugins
-        plugins: [RevealNotes]
-    });
-</script>
 
-</body>
+        // Enable plugins
+        plugins: [RevealNotes],
+      });
+    </script>
+  </body>
 </html>
