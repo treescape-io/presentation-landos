@@ -106,6 +106,12 @@
       .compact li {
         margin-bottom: 0.3em;
       }
+
+      img.logo {
+        clip-path: inset(13% 10% 13% 10% round 30%);
+        height: 50vh;
+        margin: 0;
+      }
     </style>
   </head>
 
@@ -113,12 +119,18 @@
     <div class="reveal">
       <div class="slides">
         <!-- Title Slide -->
-        <section data-background-color="#1a1a1a" data-timing="5">
+        <section
+          data-background-image="images/treescape.jpg"
+          data-background-opacity="0.3"
+          data-background-color="#1a1a1a"
+          data-timing="5"
+        >
           <h1>Treescape</h1>
           <h2 style="color: #8fc742">
             Unlocking Portugal's Regenerative Potential
           </h2>
-          <p style="margin-top: 2em">
+          <img src="images/avatar.png" class="logo" />
+          <p>
             <small>Mathijs de Bruin | CTO & Founder</small><br />
             <small>Dutch Embassy Event | November 19, 2025</small>
           </p>
@@ -129,14 +141,47 @@
 
         <!-- Personal Journey -->
         <section
-          data-background-image="placeholder_silverto_forest.jpg"
+          data-background-image="images/github.png"
+          data-background-opacity="0.3"
+          data-timing="15"
+        >
+          <h2>Serial Social Entrepreneur</h2>
+          <h3>20+ years of Deep Tech</h3>
+          <p class="fragment">Software cooperative in Amsterdam for 8+ years</p>
+          <p class="fragment">Built and ran ipfs-search.com for 7+ years</p>
+          <p class="fragment">Dutch National Bank as customer 5+ years</p>
+          <aside class="notes">
+            Personal story creates connection. "Four years ago, I made a
+            choice..."
+          </aside>
+        </section>
+
+        <section
+          data-background-image="images/silverto.jpg"
           data-background-opacity="0.3"
           data-timing="15"
         >
           <h2>From Tech to Trees</h2>
-          <h3>4 years ago: Software Architect → Food Forest Pioneer</h3>
-          <p class="fragment">Paredes de Coura, Northern Portugal</p>
+          <h3>7 years ago: Software Architect → Food Forest Pioneer</h3>
+          <p class="fragment">Silverto, Paredes de Coura, Northern Portugal</p>
           <p class="fragment">1.5 hectares of transformation</p>
+          <p class="fragment">Nature + tech playground</p>
+          <aside class="notes">
+            Personal story creates connection. "Four years ago, I made a
+            choice..."
+          </aside>
+        </section>
+
+        <section
+          data-background-image="images/silverto.jpg"
+          data-background-opacity="0.3"
+          data-timing="15"
+        >
+          <h2>Terra nas mãos</h2>
+          <h3>7 years ago: Software Architect → Food Forest Pioneer</h3>
+          <p class="fragment">Silverto, Paredes de Coura, Northern Portugal</p>
+          <p class="fragment">1.5 hectares of transformation</p>
+          <p class="fragment">Nature + tech playground</p>
           <aside class="notes">
             Personal story creates connection. "Four years ago, I made a
             choice..."
@@ -144,7 +189,11 @@
         </section>
 
         <!-- The Crisis - Demographics -->
-        <section data-timing="15">
+        <section
+          data-background-image="images/abandonment.jpg"
+          data-background-opacity="0.4"
+          data-timing="15"
+        >
           <h2>Portugal's Demographic Crisis</h2>
           <div class="fragment">
             <span class="stat danger">80%</span>
@@ -185,7 +234,11 @@
         </section>
 
         <!-- Climate Projections -->
-        <section data-timing="20">
+        <section
+          data-background-image="images/wildfire.jpg"
+          data-background-opacity="0.3"
+          data-timing="20"
+        >
           <h2>Climate Emergency</h2>
           <div class="fragment">
             <span class="stat danger">+4°C</span>
