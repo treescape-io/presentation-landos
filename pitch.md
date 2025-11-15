@@ -10,60 +10,49 @@
 
 But emigration isn't even the real crisis. Portugal has more eucalyptus plantations proportionally than any country on Earth—covering a quarter of what we call 'forests.' These aren't forests—they're green deserts. In 2017 alone, these pyrogenic monocultures burned across 70% of fire-affected areas. With temperatures projected to rise 4°C by century's end, and the Iberian Peninsula experiencing climate change beyond IPCC's worst-case scenarios, we're engineering ecological collapse."
 
-## [0:45-2:00] The Paradox and the Problem
+## [0:45-1:30] The Crisis and the Barrier
 
 "By 2070, southern Iberia will see dramatic expansion of desert conditions. This isn't about uncomfortable summers—it's about the future viability of this peninsula we call home.
 
 Portugal has anywhere from 100,000 hectares to over 1 million hectares of abandoned land—land that could be our salvation, but instead becomes fuel for catastrophic fires each year.
 
-**Here's the paradox:** Agroforestry solves ALL these interconnected crises. It creates meaningful rural employment that could reverse emigration. It sequesters carbon, prevents fires, restores water cycles, rebuilds soil. It transforms degraded land into productive, resilient ecosystems.
+Agroforestry solves these interconnected crises. It creates meaningful rural employment that could reverse emigration. It sequesters carbon, prevents fires, restores water cycles, rebuilds soil.
 
-So why isn't it everywhere? 
+So why isn't it everywhere?
 
 **Complexity.** Forests are impossibly complex systems where everything affects everything else—soil, water, climate, thousands of species interactions—playing out across 60+ years. This complexity has made agroforestry impossible to scale. Until now."
 
-## [2:00-3:00] The Solution: Making Complexity Manageable
+## [1:30-2:30] The Solution: Making Complexity Manageable
 
 "Meet Treescape—we're making agroforestry **simple, bankable, and exponentially scalable**.
 
-We're building an AI-powered platform with a unique approach:
+We're building an AI-powered platform with three core pillars:
 
-1. **Wizard-guided process**: An intelligent agent that gathers information and performs smart, fractal segmentation—identifying terraces, fields, microclimates at every scale
+**1. Guided Agentic Intelligence**: Plant-level data represented from field to nation, guiding design through natural conversation.
 
-2. **Genetic algorithms**: These efficiently and *explainably* solve agroforestry's massive problem space—optimizing placement of individual plants across thousands of hectares
+**2. Algorithms and Open Data**: Climate, species, and multi-/hyper-spectral Earth Observation. Plant placement optimized through genetic algorithms.
 
-3. **Interactive business models**: Users can adjust parameters and explore solutions—from multinational regions down to individual trees
+**3. Integrated Business Models**: 60-year biophysical projections with bankable outcomes. Partnership with Wageningen University spinoff FarmTree.
 
-4. **60-year projections**: We model economic and ecological outcomes across multiple generations, making agroforestry bankable for investors
+I'm personally validating this on my 1.5 hectares in Silverto—transforming marginal woodland into intensive food forest."
 
-This enables both top-down government initiatives and bottom-up farmer innovation—creating win-win dynamics across all stakeholders.
+## [2:30-2:50] Portugal's Opportunity
 
-Through our partnership with FarmTree from Wageningen, we're integrating decades of biophysical forest modeling. I'm personally validating this on my 1.5 hectares in Silverto—transforming marginal woodland into intensive food forest."
+"Portugal is uniquely positioned to lead this regenerative revolution. With 34% rural population—among Europe's highest—this apparent weakness is actually our strength.
 
-## [3:00-4:00] Portugal's Competitive Advantage
+Abandoned land. Unresolved inheritance. Marginal agriculture.
 
-"Portugal is uniquely positioned to lead this regenerative revolution. With about 34% rural population, we're among Europe's most rural countries. This apparent weakness is actually our strength:
+But these lands were never spoiled by industrial farming—they remain ready for regeneration.
 
-- 30% of land is trapped in unresolved inheritance—we make it actionable
-- 164 municipalities are at risk of desertification—we transform them into regenerative hubs
-- 84% of grazing land is classified as 'poor'—we restore it profitably
-- Large areas like my region in Silverto were never viable for industrial agriculture—they remain unspoiled, ready for regeneration
+The choice is stark: regeneration or desertification. The technology exists. The knowledge exists. What's needed is the courage to embrace transformation at scale."
 
-Portugal can become the laboratory for solutions the world desperately needs. If we want to show leadership in sustainable land use, if we want to give young Portuguese a reason to return, if we want to transform crisis into opportunity—this is how.
+## [2:50-4:00] Scaling & Partnership Path
 
-The choice is becoming stark: regeneration or desertification. The technology exists. The knowledge exists. What's needed is the courage to embrace transformation at scale."
+"Our scaling strategy follows a proven pattern: 10 hectares, then 100, then 1000. Each phase teaches us what the next one needs. Learn, scale, repeat.
 
-## [4:00-5:00] The Partnership Invitation
+We're starting with 3-5 pilot partners with 10+ hectare plots in diverse regions. These aren't free pilots—we're looking for founding customers who will co-develop solutions with us.
 
-"We're seeking three types of partners to catalyze this transformation:
-
-1. **Pilot partners**: We need 3-5 landowners with 10+ hectare plots in diverse regions. These aren't free pilots—we're looking for founding customers who will co-develop solutions with us. After proving success at 10 hectares, we scale to 100, then 1000. I've done 10x scaling before—I built ipfs-search.com, a web-scale search engine for the decentralized web.
-
-2. **Research collaborations**: Particularly soil scientists and climate modelers from institutions like Wageningen, ISA, or University of Évora to strengthen our models and validate outcomes.
-
-3. **A CEO partner**: I'm a builder—I build solutions. But I need someone who shares this vision and can drive the business while I perfect the technology.
-
-This isn't about venture capital or quick returns. It's about preventing ecological collapse while creating meaningful rural employment. It's about proving that complexity can be our competitive advantage.
+We're also seeking research collaborations in ecology, climate modeling, and applied ML to validate agroforestry in practice. And a CEO partner—I build solutions, but I need someone who can build the business alongside me.
 
 **Our mission: Enable regeneration of 1 billion hectares globally.**
 **Starting here in Portugal, where the need is urgent and the opportunity is immense.**
