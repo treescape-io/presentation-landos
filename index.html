@@ -127,6 +127,21 @@
         height: 50vh;
         margin: 0;
       }
+
+      .reveal a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .reveal a:hover {
+        text-decoration: underline;
+      }
+
+      .qrcode {
+        height: 30vh;
+        width: auto;
+        margin: 2em auto 0;
+              }
     </style>
   </head>
 
@@ -463,18 +478,17 @@
         <!-- Contact Slide -->
         <section data-background-color="#1a1a1a" data-timing="0">
           <h1>Let's Connect</h1>
+          <div style="margin-top: 1em">
+            <img src="images/qrcode.svg" alt="Scan for slides" class="qrcode noborder" />
+          </div>
           <div style="margin-top: 2em">
             <h3>Mathijs de Bruin</h3>
             <p>Founder & CTO, Treescape</p>
             <p style="margin-top: 1em">
-              <span class="highlight">Email:</span> info@treescape.io<br />
-              <span class="highlight">Web:</span> treescape.io<br />
-              <span class="highlight">Location:</span> Ecoaldeia Silverto,
-              Paredes de Coura
+              <span class="highlight">Email:</span> <a href="mailto:info@treescape.io">info@treescape.io</a><br />
+              <span class="highlight">Web:</span> <a href="https://treescape.io">treescape.io</a><br />
+              <span class="highlight">Location:</span> <a href="https://silverto.pt">Silverto</a>, Paredes de Coura
             </p>
-          </div>
-          <div style="margin-top: 2em">
-            <p><small>Partnership inquiries welcome</small></p>
           </div>
           <aside class="notes">
             Leave this up during Q&A. "Thank you. I'm happy to answer
